@@ -1,0 +1,8 @@
+{
+  "name": "netherite-giveaway-bot",
+  "version": "1.0.0",
+  "description": "Giveaway bot for a Minecraft streamer Discord community",
+  "main": "src/index.js",
+  "scripts": {"start": "node src/index.js", "deploy": "node src/deploy-commands.js"},
+  "dependencies": {"discord.js": "^14.22.1", "dotenv": "^16.6.1"}
+}
